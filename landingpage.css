@@ -49,3 +49,21 @@ nav{
     font-size: 2em;
     display: none;
 }
+
+/* ----header--media query--- */
+
+@media(max-width:791px){
+    nav{
+        justify-content: space-between;
+    }
+    .menu-list{
+        display: none;
+    }
+    .button-icon button{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+
+}
